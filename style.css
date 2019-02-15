@@ -1,0 +1,37 @@
+h1{
+    font-family: 'Arial';
+    color: slategray;
+
+}
+ table{
+     font-family: arial,sans-serif;
+     border-collapse: collapse;
+     width: 80%;
+     margin-left: 10%;
+     margin-right: 10%;
+ }
+ 
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+.profileImage{
+    width: 350px;
+    height: 300px;
+    border-radius: 50px;
+    border:2px solid blueviolet;
+    
+}
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+  } 
