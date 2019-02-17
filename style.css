@@ -1,8 +1,4 @@
-h1{
-    font-family: 'Arial';
-    color: slategray;
 
-}
  table{
      font-family: arial,sans-serif;
      border-collapse: collapse;
@@ -10,7 +6,14 @@ h1{
      margin-left: 10%;
      margin-right: 10%;
  }
- 
+ .bgBlue{
+     background-color:rgb(63,90,135);
+     color: white;
+ }
+ .bgGrey{
+     background-color: rgb(180,183,186);
+     color: black;
+ }
   
   td, th {
     border: 1px solid #dddddd;
@@ -22,16 +25,24 @@ h1{
     background-color: #dddddd;
   }
 
-.profileImage{
-    width: 350px;
-    height: 300px;
-    border-radius: 50px;
-    border:2px solid blueviolet;
-    
+img{
+    width:100%;
+    height:120%;
+    overflow:hidden;
 }
-.center {
+.headerSpan { 
+    width: 100%;
+    height: 50%;
+    padding: 20px;
+
+}
+
+.noMargins{
+    padding: 0px;
+}
+/* .center {
     margin: auto;
     width: 50%;
     border: 3px solid green;
     padding: 10px;
-  } 
+  }   */
